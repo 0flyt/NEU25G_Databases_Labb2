@@ -1,3 +1,50 @@
+# Bokhandel – Entity Framework (Labb 2)
+
+Detta är ett skolprojekt i kursen Databaser / C# där syftet är att utveckla en
+relationsdatabas-applikation med Entity Framework.
+
+Projektet är en WPF-applikation för administration av en bokhandel och är baserad
+på databasen som skapades i Labb 1.
+
+---
+
+## Uppgift
+**Labb 2 – Utveckla en relationsdatabasapp med Entity Framework**
+
+Applikationen uppfyller *Förslag 1 – App för administration av bokhandel*.
+
+---
+
+## Funktionalitet
+Applikationen låter användaren:
+
+- Visa lagersaldo per butik
+- Lägga till och ta bort böcker från butiker
+- Hantera befintliga titlar i sortimentet
+- (VG) Skapa, redigera och ta bort böcker och författare
+- (VG) Koppla böcker till befintliga eller nya författare
+
+All databaskommunikation sker via **Entity Framework Core**.
+
+---
+
+## Uppfyllda betygskriterier
+
+### För godkänt
+- CRUD-operationer (Create, Read, Update, Delete) via Entity Framework
+- Relationsdatabas med flera tabeller (Books, Authors, Stores, StoreBooks m.fl.)
+- Samtliga tabeller används i applikationen
+- Projektet kan klonas och köras lokalt
+- README med instruktioner för hur applikationen körs
+- Minst 10 genomtänkta commits i GitHub-repot
+
+### För väl godkänt
+- All kommunikation mot databasen sker asynkront (`async` / `await`)
+- Utökad funktionalitet enligt VG-krav
+- Färdig och sammanhängande applikation med genomtänkt UI
+
+---
+
 ## Databas och konfiguration
 
 Applikationen använder en lokal SQL Server-databas.  
