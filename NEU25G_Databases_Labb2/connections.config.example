@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<connectionStrings>
+	<add name="DefaultConnection"
+		 connectionString="Data Source=localhost;Database=YOUR_DATABASE_NAME_HERE;Integrated Security=True;TrustServerCertificate=True;"
+		 providerName="System.Data.SqlClient" />
+</connectionStrings>
